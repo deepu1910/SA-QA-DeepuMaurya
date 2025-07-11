@@ -38,8 +38,8 @@ Evallo_Test_Strategy.pdf # Test strategy document
 
 ### Clone & Install
 
-git clone https://github.com/your-username/SA-QA-YourName.git
-cd SA-QA-YourName
+git clone https://github.com/your-username/SA-QA-DeepuMaurya.git
+cd SA-QA-DeepuMaurya
 mvn clean install
 
 ---
