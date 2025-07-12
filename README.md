@@ -5,7 +5,8 @@ This project contains UI automation tests for the Sauce Demo Store using Seleniu
 ---
 
 ## 📌 Tech Stack
-- **Language**: Java 11+
+
+- **Language**: Java
 - **Build Tool**: Maven
 - **Framework**: TestNG
 - **Automation**: Selenium WebDriver
@@ -19,6 +20,7 @@ src/
 ├── base/ # Common test setup (BaseTest.java)
 ├── pages/ # Page Object classes (LoginPage, InventoryPage, etc.)
 ├── tests/ # TestNG test cases (PurchaseFlowTest, NegativeLoginTest)
+
 testng.xml # Test suite configuration
 pom.xml # Maven config
 README.md # Project guide
@@ -32,8 +34,8 @@ Evallo_Test_Strategy.pdf # Test strategy document
 ## 🔧 Setup Instructions
 
 ### Prerequisites
-- Java 11 or above
-- Maven installed (`mvn -v`)
+- Java
+- Maven installed
 - Chrome browser
 
 ### Clone & Install
@@ -47,14 +49,15 @@ mvn clean install
 ---
 
 ### **How to Run Tests**
- markdown
+ 
 ##  Running Tests
 
 ### Using Maven:
 
 mvn test
 
-Using Eclipse:
+### Using Eclipse:
+
 Right-click testng.xml → Run As → TestNG Suite
 
 
@@ -76,7 +79,7 @@ Right-click testng.xml → Run As → TestNG Suite
 
 ## Defect Report
 
- Known Defects
+Known Defects
 
 Refer to [defect-report.md](./defect-report.md) for details on a reproducible issue found during testing.
 
